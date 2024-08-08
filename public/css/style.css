@@ -1,0 +1,95 @@
+/* styles.css
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar a {
+        float: left;
+    }
+    div.content {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+} */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.jumbotron {
+    background: #f8f9fa;
+    padding: 60px 30px;
+}
+
+.jumbotron .btn {
+    margin-top: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+}
+.search-container .form-control {
+    margin-right: 5px;
+}
+.form-control{
+    width: 40%;
+}
+.search-container .btn {
+    height: 80%;
+}
+.footer {
+    background: #f8f9fa;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
